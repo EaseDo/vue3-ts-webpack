@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "downlevelIteration": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "jsx": "preserve",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [
+        "es2020",
+        "dom"
+      ]
+    },
+    "exclude": [
+      ".history",
+      "node_modules",
+      "src/**/*.",
+    ],
+    "include": [
+      "src/**/*.ts",
+    ]
+  }
